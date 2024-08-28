@@ -1,5 +1,4 @@
-﻿// Calculator Game App by Zeratron V1.0 ~ console only;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Globalization;
 
 //variables
@@ -84,7 +83,7 @@ void OperationPicker()
             gameSummary = CalculateResult("Division", false);
             break;
         case "r":
-            gameSummary = CalculateResult("Random", true); ;
+            gameSummary = CalculateResult("Random", true);
             break;
         case "o":
             ChangeDifficulty(ref endRange);
